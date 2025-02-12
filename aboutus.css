@@ -1,0 +1,148 @@
+/* Header */
+.container {
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; */
+    display: flex;
+    padding: 40px 40px;
+    background-color: #F3F3E0;
+    justify-content: space-between;
+    background-image: url('https://img.freepik.com/free-photo/interior-clothing-store-with-stylish-merchandise-racks-fashionable-brand-design-casual-wear-modern-boutique-empty-fashion-showroom-shopping-centre-with-elegant-merchandise_482257-65537.jpg');
+}
+
+.header {
+    background-color: #F3F3E0;
+    color: #1d1b1b;
+    /* text-align: flex; */
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS63XpFDn600UUKn7NJ0FDk3h1FWYBpqAW4TQ&s'); */
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS63XpFDn600UUKn7NJ0FDk3h1FWYBpqAW4TQ&s');
+}
+
+h1{
+    text-align: center;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* text-align: center; */
+    
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: #133E87;
+    text-decoration: none;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+.btn-cart {
+    color: #F3F3E0;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border: 1px solid #133E87;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #133E87;
+}
+
+/* Add to Cart */
+
+.btn-add-cart {
+    margin: 0px;
+    padding: 6px;
+    border-radius: 8px;
+    background-color: #133E87;
+    color: #F3F3E0;
+    border-color: #133E87;
+    border: none;
+}
+
+/* Gender */
+.gender {
+    /* display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 40px 40px;
+    background-color: #133E87;
+    /* justify-content: space-between; */
+
+}
+
+.nav-links1 {
+    list-style: none;
+
+}
+
+.nav-links1 li {
+    display: inline;
+    margin: 10px 10px;
+}
+
+.nav-links1 a {
+    color: #F3F3E0;
+    text-decoration: none;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+.time{
+        background: white;
+        padding: 10px;
+        width: 30%;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        max-width: 400p;
+        
+        
+}
+
+.img1 img {
+    width: 255px;
+}
+
+/* .img2 img{
+    
+} */
+
+section {
+    display: flex;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+    /* overflow: hidden; */
+    gap: 18px;
+    justify-content: space-evenly;
+    
+}
+
+.contact{
+    background: white;
+    padding: 10px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+}
+
