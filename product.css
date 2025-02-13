@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* header */
+/* Header */
+.container {
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; */
+    display: flex;
+    padding: 40px 40px;
+    background-color: #F3F3E0;
+    justify-content: space-between;
+}
+
+.header {
+    background-color: #F3F3E0;
+    color: #133E87;
+    margin: 0;
+    padding: 0;
+
+}
+
+.header .container {
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: black;
+    background-color:  #F3F3E0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: #133E87;
+    text-decoration: none;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+.btn-cart {
+    color: #F3F3E0;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border: 1px solid #133E87;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #133E87;
+}
+
+/* Add to Cart */
+
+.btn-add-cart {
+    margin: 0px;
+    padding: 6px;
+    border-radius: 8px;
+    background-color: #133E87;
+    color: #F3F3E0;
+    border-color: #133E87;
+    border: none;
+}
+
+
+.nav-links1 {
+    list-style: none;
+
+}
+
+.nav-links1 li {
+    display: inline;
+    margin: 10px 10px;
+}
+
+.nav-links1 a {
+    color: #F3F3E0;
+    text-decoration: none;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+
+/* section 1 */
+
+section {
+    display: flex;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+    /* overflow: hidden; */
+    gap: 18px;
+    justify-content: space-evenly;
+}
+
+.product-container {
+    background: white;
+    padding: 40px;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+}
+.product-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+.product-title {
+    font-size: 24px;
+    margin: 15px 0;
+}
+.product-price {
+    font-size: 20px;
+    color: #e67e22;
+    margin: 10px 0;
+}
+.product-description {
+    font-size: 14px;
+    color: #555;
+}
+.add-to-cart {
+    background: #e67e22;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.add-to-cart:hover {
+    background: #d35400;
+}
+
+h1, h2, h3 {
+    padding: 2px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 35px;
+}
+
+
+/* dropdown */
+h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    text-align: center;
+    font-size: 80px;
+    color:rgb(248, 246, 246);
+}
+
+
+.our-clothes {
+    background-image: url('https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/category/catban-120250204110032.jpg?format=webp&w=1500&dpr=1.3');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    position: relative;
+        /* width: 100%; */
+            height: 300px;
+            /* margin: 20px auto; */
+            /* background-color: white; */
+            /* border-radius: 10px; */
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+}
+
+.tshirt-page {
+    background-image: url('https://prod-img.thesouledstore.com/public/theSoul/uploads/themes/3011820250211131804.jpg?format=webp&w=1500&dpr=1.3');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    position: relative;
+        /* width: 100%; */
+            height: 300px;
+            /* margin: 20px auto; */
+            /* background-color: white; */
+            /* border-radius: 10px; */
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+}
+
+.hoodies-page {
+    background-image: url('https://prod-img.thesouledstore.com/public/theSoul/uploads/themes/4176320250124182658.jpg?format=webp&w=1500&dpr=1.3');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    position: relative;
+        /* width: 100%; */
+            height: 300px;
+            /* margin: 20px auto; */
+            /* background-color: white; */
+            /* border-radius: 10px; */
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+}
+
+
+.jacket-page {
+    background-image: url('https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/category/catban-320250102155116.jpg?format=webp&w=1500&dpr=1.3');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    position: relative;
+        /* width: 100%; */
+            height: 300px;
+            /* margin: 20px auto; */
+            /* background-color: white; */
+            /* border-radius: 10px; */
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+}
+
+
+ .dropdown {
+     position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    right: 50px;
+    /* left: 10px; */
+    /* top: 10px; */
+    /* bottom: 20px;
+    padding: 5px 10px; */
+    padding: 25px 0px;
+    background-color: none;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* .dropdown {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    right: 20px;
+    background-color: blue; 
+} */
+
+.dropdown-button {
+    background-color:rgb(8, 8, 8);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 150px;
+}
+.dropdown-menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+.dropdown-menu a:hover {
+    background-color: #f0f0f0;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* home */
+/* .navbar {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+.navbar a:hover {
+    color: black;
+} */
+
+
+.copyright {
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    height: 50px;
+    background-color:rgb(149, 127, 127);
+}
+
+
+
+h5 {
+    position: relative;
+    font-size: 50px;
+    text-align: left;
+    left: -20px;
+    padding-left: 10px;
+}
+
+.our {
+    padding: 0px 20px;
+    margin: 20px auto;
+}
+
+
